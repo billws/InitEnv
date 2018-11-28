@@ -7,6 +7,9 @@ module.exports = {
     app: [
         path.resolve(__dirname, 'app/scss/web.scss'),
         path.resolve(__dirname, 'app/jsx/index.jsx')
+    ],
+    todolist: [
+        path.resolve(__dirname, 'app/jsx/index_todolist.jsx')
     ]
   },
   module:{
